@@ -1,0 +1,560 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* ここから */
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  background-color: #eeeeee;
+}
+
+header .icon img {
+  display: block;
+  margin-top: 5px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+header h1 {
+  margin-top: 25px;
+  font-size: 26px;
+  color: rgb(2, 58, 2);
+}
+
+header .name {
+  margin-top: 8px;
+  color: rgb(2, 58, 2);
+}
+
+.sec1 {
+  display: block;
+  padding-top: 6px;
+  width: 100%;
+  height: 280px;
+  background-color: aquamarine;
+}
+
+.sec1 .main-pic {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+.sec1 .main-pic .swiper-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+.sec1 .main-pic .swiper-wrapper {
+  width: 450px;
+  background-color: #fff;
+}
+
+.sec1 .main-pic .swiper-slide {
+  display: block;
+  background-color: #eeeeee;
+}
+
+.sec1 .main-pic .swiper-slide h3 {
+  font-size: 22px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.sec1 .main-pic .swiper-slide img {
+  display: block;
+  width: 450px;
+  height: 225px;
+  object-fit: cover;
+}
+
+
+
+.sec2 {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #ff9;
+}
+
+.sec2 .container {
+  width: 90%;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px;
+}
+
+.sec2 .container .bible {
+  font-weight: bold;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.sec2 .container .bible h3 {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.sec2 .container .bible p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.sec3 {
+  padding: 10px 10px;
+  width: 100%;
+  background-color: rgb(247, 247, 201);
+}
+
+.sec3 .content {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+  color: rgb(2, 58, 2);
+}
+
+.sec3 .container {
+  max-width: 860px;
+  width: 90%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.sec3 .container .item {
+  width: 120px;
+  height: 120px;
+  background-color: #ebac70;
+  border: 2px solid rgb(235, 91, 25);
+  border-radius: 50%;
+}
+
+.sec3 .container .item a {
+  text-decoration: none;
+}
+
+.sec3 .container .item p {
+  margin-top: 40px;
+  font-size: 18px;
+  color: blue;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
+.sec4 { 
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #ff9;
+}
+
+.sec4 .frame {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  gap: 60px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin: 3% 3%;
+  }
+
+  .sec4 .frame .outer {
+    height: 280px;
+  }
+
+  .sec4 .frame p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(2, 58, 2);
+  }
+  
+  .sec4 .frame .outer11 .container {
+    height: 270px;
+  }
+  .sec4 .frame .outer12 .twitter {
+    height: 270px;
+  }
+  .sec4 .frame .outer13 .youtube {
+    height: 270px;
+  }
+  .sec4 .frame .outer21 .contact1 {
+    height: 270px;
+  }
+  .sec4 .frame .outer22 .church-pic {
+    height: 270px;
+  }
+  .sec4 .frame .outer23 .map {
+    height: 270px;
+  }
+
+  .sec4 .frame .outer11 .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 60px 110px 80px;
+    background-color: #eee
+    ;
+    border: 2px solid #ebac70;
+  }
+  
+  .sec4 .frame .outer11 .container div {
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .sec4 .frame .outer21 .contact {
+    width: 100%;
+    height: 270px;
+    border: 2px solid rgb(235, 91, 25);
+  }
+
+  .sec4 .frame .outer21 .contact1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .sec4 .frame .outer21 .contact1 p {
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 17px;
+    color: #000;
+  }
+
+  .sec4 .frame .outer21 .contact2  {
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+  }
+  
+  .sec4 .frame .outer21 .contact2 .contact2 label {
+    font-size: 16px;
+    margin-bottom: 2px;
+    display: block;
+  }
+  .sec4 .frame .outer21 .contact2 textarea {
+    margin-left: 5%;
+    background: #eee;
+    border: 1px #bbb solid;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .sec4 .frame .outer21 .contact2 textarea {
+    width: 85%;
+    height: 6rem;
+  }
+  .sec4 .frame .outer21 .contact2 input[type="submit"] {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+    line-height: 1;
+    background-color: aquamarine;
+  } 
+
+  .sec4 .frame .outer22 .church-pic img {
+    display: block;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+  }
+  
+  .sec4 .frame .outer23 .map {
+    width: 35%;
+    height: 270px;
+    background-color:antiquewhite;
+  } 
+
+
+footer {
+  margin-top: 0px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: rgb(2, 58, 2);
+  font-weight: bold;
+  background-color: #eb7070;
+}
+
+
+
+
+/* 月ページーーーー */
+
+
+.mon .grid {
+  display: grid;
+  gap: 40px 60px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 8%;
+  }
+.mon .grid .item p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mon .grid .item .word {
+  height: 200px;
+  overflow-y: scroll;
+}
+.mon .grid .item a {
+  color: #0bd;
+}
+
+
+/* 火・主の幕屋 */
+
+.sec-mon .item {
+  opacity: .5;
+}
+.sec-mon .item:nth-child(1) {
+  opacity: 1;
+}
+.sec-tue .item {
+  opacity: .5;
+}
+.sec-tue .item:nth-child(2) {
+  opacity: 1;
+}
+.sec-wed .item {
+  opacity: .5;
+}
+.sec-wed .item:nth-child(3) {
+  opacity: 1;
+}
+.sec-thu .item {
+  opacity: .5;
+}
+.sec-thu .item:nth-child(4) {
+  opacity: 1;
+}
+.sec-fri .item {
+  opacity: .5;
+}
+.sec-fri .item:nth-child(5) {
+  opacity: 1;
+}
+.sec-sat .item {
+  opacity: .5;
+}
+.sec-sat .item:nth-child(6) {
+  opacity: 1;
+}
+.sec-sun .item {
+  opacity: .5;
+}
+.sec-sun .item:nth-child(7) {
+  opacity: 1;
+}
+
+
+
+.week1 {
+  width: 100%;
+  background-color: #ff9;
+} 
+
+.week1 .container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.week1 .item {
+  width: 30%;
+}
+
+.week1 .item dt {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.week1 .item dd {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-left: 10px;
+}
+
+.week2 {
+  width: 100%;
+  height: 90vh;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: rgb(212, 240, 245);
+}
+
+.week2 .container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.week2 .container .item {
+  width: 30%;
+  height: 90vh;
+  overflow-y: scroll;
+  border: 1px solid #0bd;
+  background-color: #eeeeee;
+}
+
+.week2 .container .item h2 {
+  font-size: 19px;
+  line-height: 2;
+}
+
+.week2 .container .item h3 {
+  font-size: 17px;
+  line-height: 2;
+  margin-left: 8px;
+}
+
+.week2 .container .item h4 {
+  margin-left: 10px;
+}
+
+.week2 .container .item p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
